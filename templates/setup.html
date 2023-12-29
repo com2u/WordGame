@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Setup Players</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js" crossorigin="anonymous"></script>
+     <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var socket = io.connect('http://127.0.0.1:5000');
+
+             socket.on('token', function (data) {
+                // Handle the received token
+                console.log('Received token:', data.token);
+            });
+
+            socket.on('new_word', function (data) {
+                document.getElementById('word').textContent = data.word;
+                document.getElementById('AddPlayer').focus();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Setup Players</h1>
+    <div id="word"></div>
+    <a href="/setup">Setup Players</a> | <a href="/player">Player</a> | <a href="/game">Game</a> | <a href="/register">Register</a>
+    <div>
+        <h3>QR Code to Register</h3>
+        <img src="{{ url_for('static', filename='register_qr.png') }} " style="width:200px; height:200px;" alt="QR Code for Register Page">
+    </div>
+    <form method="post">
+        <input id="AddPlayer" type="text" name="name" placeholder="Player name">
+        <button type="submit">Add Player</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Link</th>
+                <th>QRCode</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for player in players %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ player.name }}</td>
+                <td><a href="/player/{{ player.sessionToken }}">Link</a></td>
+                <td><img src="data:image/png;base64,{{ player.qr_code }}" style="width:200px; height:200px;" /></td>
+                <td>
+                    <form method="post">
+                        <input type="hidden" name="remove" value="{{ player.sessionToken }}">
+                        <button type="submit">Remove</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <script>
+        document.getElementById('AddPlayer').focus();
+    </script>
+</body>
+</html>

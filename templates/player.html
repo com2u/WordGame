@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js" crossorigin="anonymous"></script>
+     <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var socket = io.connect('http://127.0.0.1:5000');
+            socket.on('{{ player.sessionToken }}', function (data) {
+                var dataContainer = document.getElementById('dataContainer');
+                var icon = document.getElementById('icon');
+                dataContainer.innerHTML = '';
+                if(data.icon) {
+                    icon.src = data.icon;
+                    icon.style.display = 'block'; // Display the icon if "icon" key is present in received JSON
+                } else {
+                    icon.style.display = 'none'; // Hide the icon if "icon" key is not present in received JSON
+                }
+                Object.keys(data).forEach(function(key) {
+                    if(key === 'icon') return; // Skip the icon key
+                    var div = document.createElement('div');
+                    var h3 = document.createElement('h3');
+                    h3.appendChild(document.createTextNode(key));
+                    div.appendChild(h3);
+                    var ul = document.createElement('ul');
+                    data[key].forEach(function(item) {
+                        var li = document.createElement('li');
+                        li.appendChild(document.createTextNode(item));
+                        ul.appendChild(li);
+                    });
+                    div.appendChild(ul);
+                    dataContainer.appendChild(div);
+                });
+            });
+        });
+
+
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Player</h1>
+    <div id="menuComponent">
+    <button id="menuButton">...</button>
+    <div id="menuContent" class="hidden">
+        <a href="/setup">Setup Players</a> |
+        <a href="/player">Player</a> |
+        <a href="/game">Game</a> |
+        <a href="/register">Register</a>
+
+        <form method="post">
+            <label for="new_game">New Game:</label>
+            <select id="new_game" name="new_game">
+                <option value="Game1" selected>Chämeleon</option>
+                <option value="Game2" >CodeNames</option>
+                <option value="Game3" >Paddy</option>
+                <option value="Game4" >1of3</option>
+                <option value="Game5" >Aggravation</option>
+                <option value="Game6" >Carcassonne</option>
+                <option value="Game7" >Blockus</option>
+                <option value="Game8" >Cards</option>
+                <option value="Game9" >Domino</option>
+            </select>
+            <button type="submit">Select</button>
+        </form>
+    </div>
+    </div>
+    <a href="/setup">Setup Players</a> | <a href="/player">Player</a> | <a href="/game">Game</a>
+    <p>Number: {{ player_number }}</p>
+    <p>Name: {{ player.name }}</p>
+    <p>Secret Message: {{ player.secretMessage }}</p>
+    <div id="word"></div>
+    <img id="icon" src="" alt="Icon" style="display:none;"> <!-- Icon Image -->
+    <div id="dataContainer"></div>
+    <script type="text/javascript">
+        var socket = io.connect('http://127.0.0.1:5000');
+
+        socket.on('display_data', function(data) {
+            var dataContainer = document.getElementById('dataContainer');
+            var icon = document.getElementById('icon');
+            dataContainer.innerHTML = '';
+            if(data.icon) {
+                icon.src = data.icon;
+                icon.style.display = 'block'; // Display the icon if "icon" key is present in received JSON
+            } else {
+                icon.style.display = 'none'; // Hide the icon if "icon" key is not present in received JSON
+            }
+            Object.keys(data).forEach(function(key) {
+                if(key === 'icon') return; // Skip the icon key
+                var div = document.createElement('div');
+                var h3 = document.createElement('h3');
+                h3.appendChild(document.createTextNode(key));
+                div.appendChild(h3);
+                var ul = document.createElement('ul');
+                data[key].forEach(function(item) {
+                    var li = document.createElement('li');
+                    li.appendChild(document.createTextNode(item));
+                    ul.appendChild(li);
+                });
+                div.appendChild(ul);
+                dataContainer.appendChild(div);
+            });
+        });
+        document.getElementById("menuButton").addEventListener("mouseover", function() {
+            document.getElementById("menuContent").classList.remove("hidden");
+        });
+
+        document.getElementById("menuContent").addEventListener("mouseleave", function() {
+            this.classList.add("hidden");
+        });
+
+    </script>
+</body>
+</html>

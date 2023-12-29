@@ -1,0 +1,12 @@
+{
+    "backgroundImage":"1of3/Background.png",
+	"MixArea":{"X":0,"Y":1000,"Width":2,"Height":2},
+	"FlipArea":{"X":0,"Y":1000,"Width":2,"Height":2},
+	"UpadteImageIndexArea":{"X":0,"Y":1000,"Width":2,"Height":2},
+	"token":"{{token}}",
+    "Objects": [
+	    {"Image": ["1of3/card.png", "1of3/cardBack.png"], "currentImageIndex":1, "X": 100, "Y": 100, "Z": 0, "Rotate": 0, "Text": "{{text1}}", "Type":"text", "Size": 18, "Color": "#000000"},
+	    {"Image": ["1of3/card.png", "1of3/cardBack.png"], "currentImageIndex":1, "X": 100, "Y": 220, "Z": 0, "Rotate": 0, "Text": "{{text2}}", "Type":"text", "Size": 18, "Color": "#000000"},
+	    {"Image": ["1of3/card.png", "1of3/cardBack.png"], "currentImageIndex":1, "X": 100, "Y": 340, "Z": 0, "Rotate": 0, "Text": "{{text3}}", "Type":"text", "Size": 18, "Color": "#000000"}
+	    ]
+}

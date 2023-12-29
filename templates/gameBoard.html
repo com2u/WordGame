@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ game.gameTitle }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div>
+        <h1 style="display: inline;">{{ game.gameTitle }}</h1>
+        <img src="{{ game.icon }}" alt="Game Icon" style="height: 50px; width: 50px; vertical-align: middle; margin-left: 10px;">
+    </div>
+    <a href="/setup">Setup Players</a> | <a href="/player">Player</a> | <a href="/game">Game</a> | <a href="/register">Register</a>
+
+    <form method="post">
+        <label for="new_game">New Game:</label>
+        <select id="new_game" name="new_game">
+            {% for game_key, game_value in all_games.items() %}
+                <option value="{{ game_key }}" {% if game_key == current_game %}selected{% endif %}>{{ game_value[0].gameTitle }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Select</button>
+    </form>
+
+    <ul>
+        {% for word in content.words %}
+        <li>{{ word|escape  }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

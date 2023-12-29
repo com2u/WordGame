@@ -1,0 +1,83 @@
+{
+    "Game1": [
+        {
+            "gameTitle": "Chämeleon",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/10693/10693535.png"
+        }
+    ],
+    "Game2": [
+        {
+            "gameTitle": "CodeNames",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ],
+    "Game3": [
+        {
+            "gameTitle": "Paddy",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ],
+    "Game4": [
+        {
+            "gameTitle": "Aggravation",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ],
+    "Game5": [
+        {
+            "gameTitle": "Carcassonne",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ],
+    "Game6": [
+        {
+            "gameTitle": "Blockus",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ],
+    "Game7": [
+        {
+            "gameTitle": "Cards",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ],
+    "Game8": [
+        {
+            "gameTitle": "Domino",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ],
+    "Game9": [
+        {
+            "gameTitle": "CodeSecret",
+            "words": [
+                "Haus", "Auto", "Tür", "Pferd", "Knochen", "Gabel", "Stuhl", "Tisch", "Baum", "Blume", "Wasser", "Himmel", "Vogel", "Hund", "Katze", "Uhr", "Mond", "Sonne", "Stern", "Buch", "Stift", "Papier", "Meer", "Berg", "Fluss", "Computer", "Telefon", "Kaffee", "Tee", "Milch", "Brot", "Käse", "Apfel", "Orange", "Banane", "Wein", "Bier", "Glas", "Teller", "Messer", "Löffel", "Fahrrad", "Bus", "Flugzeug", "Zug", "Boot", "Fisch", "Fleisch", "Gemüse", "Obst", "Kuchen", "Kekse", "Eis", "Zucker", "Salz", "Pfeffer", "Öl", "Musik", "Film", "Fernseher", "Radio", "Lampe", "Bett", "Schrank", "Schuh", "Hose", "Hemd", "Hut", "Tasche", "Uhr", "Ring", "Armband", "Kette", "Foto", "Kamera", "Malerei", "Skulptur", "Garten", "Rasen", "Zaun", "Tor", "Dach", "Fenster", "Wand", "Boden", "Decke", "Teppich", "Kissen", "Decke", "Seife", "Shampoo", "Handtuch", "Kamm", "Bürste", "Zahnbürste", "Zahnpasta", "Spiegel", "Kühlschrank", "Herd", "Mikrowelle", "Berlin", "Paris", "London", "New York", "Tokio", "Sydney", "Rom", "Madrid", "Moskau", "Peking", "Deutschland", "Frankreich", "Vereinigtes Königreich", "Vereinigte Staaten", "Japan", "Australien", "Italien", "Spanien", "Russland", "China", "Arzt", "Lehrer", "Ingenieur", "Anwalt", "Programmierer", "Krankenpfleger", "Architekt", "Psychologe", "Buchhalter", "Elektriker"
+            ],
+            "icon": "https://cdn-icons-png.flaticon.com/128/1669/1669397.png"
+        }
+    ]
+}

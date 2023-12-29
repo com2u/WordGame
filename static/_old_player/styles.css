@@ -1,0 +1,43 @@
+.object {
+    position: absolute;
+    text-align: center;
+    cursor: grab;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object img {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.object p {
+    z-index: 2;
+}
+
+
+
+.rotate-icon-right, .rotate-icon-left {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    top: 0;
+    cursor: pointer;
+    z-index: 3;
+    display: none;
+}
+
+.rotate-icon-right { right: 0; }
+.rotate-icon-left { left: 0; }
+
+
+.object:hover .rotate-icon-right,
+.object:hover .rotate-icon-left {
+    display: block;
+}
+

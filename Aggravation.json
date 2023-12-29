@@ -1,0 +1,27 @@
+{
+    "backgroundImage":"Aggravation/Board.png",
+	"MixArea":{"X":0,"Y":1000,"Width":2,"Height":2},
+	"FlipArea":{"X":0,"Y":1000,"Width":2,"Height":2},
+	"UpadteImageIndexArea":{"X":75,"Y":256,"Width":60,"Height":60},
+    "Objects": [
+		{"Image": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"], "currentImageIndex":0, "X": 80, "Y": 260, "Z": 10, "Rotate": 0, "Text": "",  "Type":"text", "Size": 16, "Color": "#000000"},
+	    {"Image": ["Aggravation/F1.png"], "currentImageIndex":0, "X": 326, "Y": 321, "Z": 101, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F1.png"], "currentImageIndex":0, "X": 360, "Y": 321, "Z": 101, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F1.png"], "currentImageIndex":0, "X": 326, "Y": 355, "Z": 101, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F1.png"], "currentImageIndex":0, "X": 360, "Y": 355, "Z": 101, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F2.png"], "currentImageIndex":0, "X": 22, "Y": 321, "Z": 102, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F2.png"], "currentImageIndex":0, "X": 56, "Y": 321, "Z": 102, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F2.png"], "currentImageIndex":0, "X": 22, "Y": 355, "Z": 102, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F2.png"], "currentImageIndex":0, "X": 56, "Y": 355, "Z": 102, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F3.png"], "currentImageIndex":0, "X": 22, "Y": 17, "Z": 103, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F3.png"], "currentImageIndex":0, "X": 56, "Y": 17, "Z": 103, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F3.png"], "currentImageIndex":0, "X": 22, "Y": 51, "Z": 103, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F3.png"], "currentImageIndex":0, "X": 56, "Y": 51, "Z": 103, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F4.png"], "currentImageIndex":0, "X": 326, "Y": 17, "Z": 104, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F4.png"], "currentImageIndex":0, "X": 360, "Y": 17, "Z": 104, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F4.png"], "currentImageIndex":0, "X": 326, "Y": 51, "Z": 104, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["Aggravation/F4.png"], "currentImageIndex":0, "X": 360, "Y": 51, "Z": 104, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"}
+		 	
+		]
+}
+

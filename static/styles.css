@@ -1,0 +1,66 @@
+.object {
+    position: absolute;
+    text-align: center;
+    cursor: grab;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.object img {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.object p {
+    z-index: 2;
+}
+
+
+
+.rotate-icon-right, .rotate-icon-left {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    top: 0;
+    cursor: pointer;
+    z-index: 3;
+    display: none;
+}
+
+.rotate-icon-right { right: 0; }
+.rotate-icon-left { left: 0; }
+
+#menuComponent {
+    position: relative;
+}
+
+#menuButton {
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#menuContent {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.object:hover .rotate-icon-right,
+.object:hover .rotate-icon-left {
+    display: block;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player</title>
+</head>
+<body>
+    <h1>Player List</h1>
+    <a href="/setup">Setup Players</a> | <a href="/player">Player</a> | <a href="/game">Game</a>
+    <p>Number: {{ player_number }}</p>
+    <p>Name: {{ player.name }}</p>
+    <ul>
+        {% for word in player.secretMessage %}
+        <li>{{ word|escape  }}</li>
+        {% endfor %}
+    </ul>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js"></script>
+
+<script>
+    var socket = io.connect('http://localhost:5000');
+    socket.on('connect', function() {
+        // A session token needs to be provided here to join the correct room.
+        // Assuming a variable 'sessionToken' exists in this scope.
+        // Replace 'YOUR_SESSION_TOKEN_VARIABLE' with the actual variable or value.
+        socket.emit('join', {sessionToken: YOUR_SESSION_TOKEN_VARIABLE});
+    });
+    socket.on('secret_message', function(data) {
+        // Assuming there is an element with id 'secretMessage' to display the secret message.
+        document.getElementById('secretMessage').innerHTML = data.message;
+    });
+</script>
+
+</body>
+</html>

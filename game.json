@@ -1,0 +1,24 @@
+{
+	"backgroundImage":"Background.png",
+	"MixArea":{"X":500,"Y":500,"Width":200,"Height":200},
+	"FlipArea":{"X":5,"Y":5,"Width":200,"Height":400},
+	"UpadteImageIndexArea":{"X":100,"Y":500,"Width":200,"Height":200},
+    "Objects": [
+	    {"Image": ["https://cdn-icons-png.flaticon.com/128/7011/7011133.png", "https://cdn-icons-png.flaticon.com/128/10826/10826864.png", "https://cdn-icons-png.flaticon.com/128/7011/7011144.png", "https://cdn-icons-png.flaticon.com/128/10826/10826866.png", "https://cdn-icons-png.flaticon.com/128/1626/1626822.png", "https://cdn-icons-png.flaticon.com/128/10826/10826868.png"], "currentImageIndex":0, "X": 150, "Y": 550, "Z": 10, "Rotate": 0, "Text": "Dice", "Type":"text", "Size": 16, "Color": "#000000"},
+        {"Image": ["https://cdn-icons-png.flaticon.com/128/1596/1596392.png","https://cdn-icons-png.flaticon.com/128/1818/1818401.png","https://cdn-icons-png.flaticon.com/128/7743/7743300.png"],"currentImageIndex":0, "X": 10, "Y": 20, "Z": 1, "Rotate": 0, "Text": "Hallo Welt", "Type":"text", "Size": 19, "Color": "#000000"},
+        {"Image": ["https://cdn-icons-png.flaticon.com/128/9193/9193009.png","https://cdn-icons-png.flaticon.com/128/375/375105.png"], "currentImageIndex":0, "X": 10, "Y": 200, "Z": 2, "Rotate": 0, "Text": "Heureka", "Type":"text", "Size": 16, "Color": "#00FF00"},
+        {"Image": ["https://cdn-icons-png.flaticon.com/128/4540/4540789.png"],"currentImageIndex":0, "X": 10, "Y": 400, "Z": 3, "Rotate": 0, "Text": "Test", "Type":"text", "Size": 16, "Color": "#FF0000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/206/206626.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 101, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/555/555417.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 102, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/206/206606.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 103, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/555/555613.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 104, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/206/206657.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 105, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/3373/3373278.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 106, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/5111/5111624.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 107, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/206/206618.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 108, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["https://cdn-icons-png.flaticon.com/128/555/555560.png"],"currentImageIndex":0, "X": 550, "Y": 550, "Z": 109, "Rotate": 0, "Text": "", "Type":"text", "Size": 16, "Color": "#000000"},
+		{"Image": ["input.png"],"currentImageIndex":0, "X": 150, "Y": 200, "Z": 202, "Rotate": 0, "Text": "Your Name:", "Type":"input", "Value":"Peter", "Size": 16, "Color": "#000000"},
+		{"Image": ["input.png"],"currentImageIndex":0, "X": 150, "Y": 100, "Z": 201, "Rotate": 0, "Text": "Aktive", "Type":"checkbox", "Value":"true", "Size": 16, "Color": "#000000"}
+
+    ]
+}
